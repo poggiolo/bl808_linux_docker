@@ -4,7 +4,7 @@ Ubuntu container to build Linux for the Bouffalo Lab BL808.
 ## Run
 Clone [Bouffalo Lab's BL808 Linux repository](https://github.com/bouffalolab/bl808_linux), download the toolchain as instructed in the readme and start this container:
 ```
-docker run --rm -it -v "$(pwd)":/data bonnee/bl808_linux
+docker run --rm -it -v "$(pwd)":/data ghcr.io/poggiolo/bl808_linux
 ```
 Now you can run the compile steps (`./build.sh all` etc...)
 
