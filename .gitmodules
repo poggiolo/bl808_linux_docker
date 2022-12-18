@@ -1,0 +1,3 @@
+[submodule "bl808_linux"]
+	path = bl808_linux
+	url = https://github.com/bouffalolab/bl808_linux
